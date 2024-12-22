@@ -12,82 +12,10 @@ body {
   color: #fff;
 }
 
-/* Navbar */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2rem;
-  background: #1f1f1f;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.navbar .logo img {
-  height: 40px; /* Adjust the size of the logo */
-  width: auto;
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-}
-
-.navbar ul a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
-.navbar ul a:hover {
-  color: #f39c12;
-}
-
-/* Dropdown menu */
-.dropdown {
-  position: relative;
-}
-
-.dropdown-menu {
-  display: none; /* Hide the dropdown menu initially */
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background: #1f1f1f;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  border-radius: 5px;
-}
-
-.dropdown-menu li {
-  padding: 10px;
-}
-
-.dropdown-menu a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
-.dropdown-menu a:hover {
-  color: #f39c12;
-}
-
-/* Display dropdown when clicking */
-.dropdown.active .dropdown-menu {
-  display: block; /* Show dropdown when active */
-}
-
 /* Hero Section */
 .hero {
   height: 100vh;
-  background: url('https://source.unsplash.com/1600x900/?gaming,technology') no-repeat center center/cover;
+  background: url('assets/background.png') no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
