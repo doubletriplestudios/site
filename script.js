@@ -1,16 +1,16 @@
-// JavaScript to toggle the dropdown menu
-const menuBtn = document.getElementById('menuBtn');
-const menu = document.getElementById('menu');
-const menuItems = document.querySelectorAll('.menu-item');
+// JavaScript to toggle dropdown menus on click
+document.querySelectorAll('.dropdown > a').forEach(item => {
+  item.addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    // Close all dropdowns
+    document.querySelectorAll('.dropdown').forEach(dropdown => {
+      if (dropdown !== item.parentNode) {
+        dropdown.classList.remove('active');
+      }
+    });
 
-// Toggle the dropdown menu when clicking the menu button
-menuBtn.addEventListener('click', () => {
-  menu.classList.toggle('open');
-});
-
-// Close the menu when a menu item is clicked
-menuItems.forEach(item => {
-  item.addEventListener('click', () => {
-    menu.classList.remove('open'); // Close the menu when any link is clicked
+    // Toggle the clicked dropdown
+    item.parentNode.classList.toggle('active');
   });
 });
