@@ -81,7 +81,7 @@ section p {
 
 .game-card {
   background: #1f1f1f;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: left;
@@ -151,7 +151,7 @@ footer a {
 
 .team-member {
   background: #1f1f1f;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -220,6 +220,7 @@ footer a {
   max-height: 40px;
   width: auto;
   height: auto;
+  border-radius: 5px;
 }
 
 .social-icons a:hover img {
