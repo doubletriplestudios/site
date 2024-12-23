@@ -1,16 +1,10 @@
-// JavaScript to toggle dropdown menus on click
-document.querySelectorAll('.dropdown > a').forEach(item => {
-  item.addEventListener('click', function(e) {
-    e.preventDefault();
-    
-    // Close all dropdowns
-    document.querySelectorAll('.dropdown').forEach(dropdown => {
-      if (dropdown !== item.parentNode) {
-        dropdown.classList.remove('active');
-      }
-    });
+// ฟังก์ชันที่แสดงข้อมูลสมาชิกทีม
+function showTeamMemberInfo(name, position) {
+  // แสดงข้อมูลใน alert
+  alert(`Name: ${name}\nPosition: ${position}`);
+}
 
-    // Toggle the clicked dropdown
-    item.parentNode.classList.toggle('active');
-  });
-});
+// ฟังก์ชันที่นำทางไปยังหน้าอื่น
+function redirectToTeamMemberPage(url) {
+  window.location.href = url;
+}
