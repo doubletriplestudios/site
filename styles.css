@@ -190,3 +190,31 @@ footer a {
   background: #fff;
   color: #ffa200;
 }
+
+footer {
+  background: #1f1f1f;
+  padding: 2rem;
+  text-align: center;
+  color: #bbb;
+  font-size: 0.9rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: #f39c12;
+  margin: 0 0.5rem;
+}
+
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
