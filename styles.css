@@ -130,6 +130,7 @@ footer a {
 #team {
   padding: 4rem 2rem;
   text-align: center;
+  background-color: #1f1f1f;
 }
 
 #team h2 {
@@ -151,7 +152,7 @@ footer a {
 }
 
 .team-member {
-  background: #1f1f1f;
+  background: #2c2c2c;
   border-radius: 10px;
   padding: 1.5rem;
   text-align: center;
@@ -174,23 +175,4 @@ footer a {
 .team-member p {
   font-size: 1rem;
   color: #bbb;
-}
-
-/* Social Links */
-.social-links {
-  margin-top: 1rem;
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.social-links a {
-  text-decoration: none;
-  color: #ffa200;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.social-links a:hover {
-  color: #bebebe;
 }
