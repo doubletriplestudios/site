@@ -47,8 +47,7 @@ body {
   color: #000;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
-  transition: 0.3s;
+  border-radius: 10px;
 }
 
 .hero a:hover {
@@ -81,7 +80,7 @@ section p {
 
 .game-card {
   background: #1f1f1f;
-  border-radius: 5px;
+  border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: left;
@@ -151,7 +150,7 @@ footer a {
 
 .team-member {
   background: #1f1f1f;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 1.5rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -182,8 +181,7 @@ footer a {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;
-  transition: 0.3s;
+  border-radius: 10px;
 }
 
 #about a:hover {
@@ -212,7 +210,6 @@ footer a {
 .social-icons a {
   margin: 0 0.5rem;
   display: inline-block;
-  transition: 0.3s;
 }
 
 .social-icons img {
@@ -220,5 +217,95 @@ footer a {
   max-height: 40px;
   width: auto;
   height: auto;
+  border-radius: 10px;
+}
+
+#contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+#contact h2 {
+  font-size: 2.5rem;
+  color: #f39c12;
+  margin-bottom: 1rem;
+}
+
+#contact p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: #bbb;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+  background-color: #2c2c2c;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: #f39c12;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
   border-radius: 5px;
+  background-color: #3c3c3c;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #ffa200;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #000;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contact-info h3 {
+  font-size: 1.5rem;
+  color: #ffa200;
+  margin-bottom: 1rem;
+}
+
+.contact-info a {
+  color: #ffa200;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
 }
