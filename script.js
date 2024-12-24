@@ -8,3 +8,8 @@ function showTeamMemberInfo(name, position) {
 function redirectToTeamMemberPage(url) {
   window.location.href = url;
 }
+
+document.getElementById('contactForm').addEventListener('submit', function (e) {
+  e.preventDefault(); // ป้องกันการส่งฟอร์มจริง
+  document.getElementById('responseMessage').style.display = 'block';
+});
