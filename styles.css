@@ -229,14 +229,14 @@ footer a {
 
 #social h2 {
   font-size: 2.5rem;
-  color: #f39c12;
+  color: #ffa200;
   margin-bottom: 1rem;
 }
 
 #social p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #bbb;
+  color: #fff;
 }
 
 .contact-container {
@@ -314,4 +314,61 @@ footer a {
 .contact-info a:hover {
   background: #000;
   color: #fff;
+}
+
+/* Newsroom Section */
+#newsroom {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#newsroom h2 {
+  font-size: 2.5rem;
+  color: #ffa200;
+  margin-bottom: 1rem;
+}
+
+#newsroom p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.news-entries {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.news-entries article {
+  background-color: #1f1f1f;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.news-entries article img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.news-entries article h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.news-entries article a {
+  text-decoration: none;
+  color: #ffa200;
+  font-weight: bold;
+}
+
+.news-entries article a:hover {
+  text-decoration: underline;
 }
