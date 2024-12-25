@@ -317,18 +317,18 @@ footer a {
 }
 
 /* Newsroom Section */
-#newsroom {
+#news {
   padding: 40px 20px;
   text-align: center;
 }
 
-#newsroom h2 {
+#news h2 {
   font-size: 2.5rem;
   color: #ffa200;
   margin-bottom: 1rem;
 }
 
-#newsroom p {
+#news p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
 }
