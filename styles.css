@@ -342,19 +342,21 @@ footer a {
 
 .news-entries article {
   background-color: #1f1f1f;
-  border: 1px solid #ddd;
   border-radius: 10px;
   padding: 20px;
   width: 300px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: left;
 }
 
 .news-entries article img {
-  width: 100%;
+  max-width: 800px;
+  max-height: 400px;
+  width: 100%; /* ให้ปรับขนาดตามความกว้างของ container */
+  height: auto; /* คงอัตราส่วนภาพ */
   border-radius: 10px;
   margin-bottom: 15px;
-  object-fit: cover;
+  object-fit: cover; /* ตัดส่วนเกินให้อยู่ในกรอบ */
 }
 
 .news-entries article h3 {
