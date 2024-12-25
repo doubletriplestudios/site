@@ -8,14 +8,15 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #121212;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
 }
 
 /* Hero Section */
 .hero {
+  color: #fff;
   height: 100vh;
-  background-color: #ffa200;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,16 +44,15 @@ body {
 .hero a {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #fff;
-  color: #000;
+  background: #add800;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 10px;
 }
 
 .hero a:hover {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #add800;
 }
 
 /* Section */
@@ -64,7 +64,7 @@ section {
 section h2 {
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: #ffa200;
+  color: #add800;
 }
 
 section p {
@@ -79,8 +79,8 @@ section p {
 }
 
 .game-card {
-  background: #1f1f1f;
-  border-radius: 10px;
+  color: #000;
+  background: #d3d3d3;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   text-align: left;
@@ -113,94 +113,30 @@ section p {
 
 /* Footer */
 footer {
-  background: #1f1f1f;
+  background: #d3d3d3;
   padding: 2rem;
   text-align: center;
-  color: #bbb;
+  color: #000;
   font-size: 0.9rem;
 }
 
 footer a {
-  color: #f39c12;
+  color: #add800;
   text-decoration: none;
-}
-
-/* Our Team Section */
-#team {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-#team h2 {
-  font-size: 2.5rem;
-  color: #ffa200;
-  margin-bottom: 1rem;
-}
-
-#team p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-}
-
-.team-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.team-member {
-  background: #1f1f1f;
-  border-radius: 10px;
-  padding: 1.5rem;
-  text-align: center;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.team-member img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-}
-
-.team-member h3 {
-  font-size: 1.2rem;
-  color: #fff;
-  margin-bottom: 0.5rem;
-}
-
-.team-member p {
-  font-size: 1rem;
-  color: #bbb;
 }
 
 #about a {
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  background: #ffa200;
+  background: #add800;
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 10px;
 }
 
 #about a:hover {
   background: #fff;
-  color: #ffa200;
-}
-
-footer {
-  background: #1f1f1f;
-  padding: 2rem;
-  text-align: center;
-  color: #bbb;
-  font-size: 0.9rem;
-}
-
-footer a {
-  text-decoration: none;
-  color: #f39c12;
-  margin: 0 0.5rem;
+  color: #add800;
 }
 
 .social-icons {
@@ -217,26 +153,21 @@ footer a {
   max-height: 50px;
   width: auto;
   height: auto;
-  border-radius: 10px;
 }
 
 #social {
   padding: 4rem 2rem;
   text-align: center;
-  background-color: #121212;
-  color: #fff;
 }
 
 #social h2 {
   font-size: 2.5rem;
-  color: #ffa200;
   margin-bottom: 1rem;
 }
 
 #social p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
-  color: #fff;
 }
 
 .contact-container {
